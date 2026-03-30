@@ -66,5 +66,5 @@ app.get('/api/products/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Backend server is running on http://localhost:${PORT}`);
-});
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+}); 
