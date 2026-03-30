@@ -1,0 +1,92 @@
+{
+  "categories": [
+    { "id": 1, "name": "Oil" },
+    { "id": 2, "name": "Maida" },
+    { "id": 3, "name": "Rice" },
+    { "id": 4, "name": "Pulses" },
+    { "id": 5, "name": "Spices" },
+    { "id": 6, "name": "Others" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Sunflower Oil 1L",
+      "category": "Oil",
+      "price": 120,
+      "description": "Pure and natural sunflower oil for your daily cooking needs.",
+      "image": "https://placehold.co/400x400/FFA500/FFF?text=Sunflower+Oil"
+    },
+    {
+      "id": 2,
+      "name": "Premium Maida 1kg",
+      "category": "Maida",
+      "price": 45,
+      "description": "Finely milled, refined wheat flour for baking and cooking.",
+      "image": "https://placehold.co/400x400/F5DEB3/000?text=Premium+Maida"
+    },
+    {
+      "id": 3,
+      "name": "Basmati Rice 5kg",
+      "category": "Rice",
+      "price": 450,
+      "description": "Long-grain aromatic basmati rice.",
+      "image": "https://placehold.co/400x400/E8D2A6/000?text=Basmati+Rice"
+    },
+    {
+      "id": 4,
+      "name": "Toor Dal 1kg",
+      "category": "Pulses",
+      "price": 130,
+      "description": "High-protein split yellow pigeon peas.",
+      "image": "https://placehold.co/400x400/FFD700/000?text=Toor+Dal"
+    },
+    {
+      "id": 5,
+      "name": "Turmeric Powder 200g",
+      "category": "Spices",
+      "price": 60,
+      "description": "Organic, pure turmeric powder with high curcumin content.",
+      "image": "https://placehold.co/400x400/FF8C00/FFF?text=Turmeric+Powder"
+    },
+    {
+      "id": 6,
+      "name": "Mustard Oil 1L",
+      "category": "Oil",
+      "price": 140,
+      "description": "Cold-pressed pungent mustard oil for authentic flavor.",
+      "image": "https://placehold.co/400x400/FFD700/000?text=Mustard+Oil"
+    },
+    {
+      "id": 7,
+      "name": "Red Chilli Powder 200g",
+      "category": "Spices",
+      "price": 75,
+      "description": "Spicy and vibrant red chilli powder.",
+      "image": "https://placehold.co/400x400/FF4500/FFF?text=Red+Chilli"
+    },
+    {
+      "id": 8,
+      "name": "Moong Dal 1kg",
+      "category": "Pulses",
+      "price": 110,
+      "description": "Premium quality split green gram.",
+      "image": "https://placehold.co/400x400/9ACD32/000?text=Moong+Dal"
+    },
+    {
+      "id": 9,
+      "name": "Sona Masoori Rice 10kg",
+      "category": "Rice",
+      "price": 750,
+      "description": "Lightweight and aromatic medium-grain rice.",
+      "image": "https://placehold.co/400x400/E8D2A6/000?text=Sona+Masoori"
+    },
+    {
+      "id": 10,
+      "name": "Garam Masala 100g",
+      "category": "Spices",
+      "price": 85,
+      "description": "Blend of ground spices used in Indian cooking.",
+      "image": "https://placehold.co/400x400/8B4513/FFF?text=Garam+Masala"
+    }
+  ]
+}
