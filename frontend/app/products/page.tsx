@@ -1,24 +1,14 @@
 import ProductCard from '../components/ProductCard';
 import Link from 'next/link';
 
+import { products, categories } from '@/lib/data';
+
 async function getProducts() {
-  try {
-    const res = await fetch('http://127.0.0.1:5002/api/products', { cache: 'no-store' });
-    if (!res.ok) return [];
-    return res.json();
-  } catch (error) {
-    return [];
-  }
+  return products;
 }
 
 async function getCategories() {
-  try {
-    const res = await fetch('http://127.0.0.1:5002/api/categories', { cache: 'no-store' });
-    if (!res.ok) return [];
-    return res.json();
-  } catch (error) {
-    return [];
-  }
+  return categories;
 }
 
 export default async function Products({

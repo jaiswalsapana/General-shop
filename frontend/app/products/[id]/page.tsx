@@ -2,14 +2,10 @@ import { ShoppingCart, Star, Shield, Truck, PackageCheck } from 'lucide-react';
 import Link from 'next/link';
 import AddToCartButton from '../../components/AddToCartButton';
 
+import { products } from '@/lib/data';
+
 async function getProduct(id: string) {
-  try {
-    const res = await fetch(`http://127.0.0.1:5002/api/products/${id}`, { cache: 'no-store' });
-    if (!res.ok) return null;
-    return res.json();
-  } catch (error) {
-    return null;
-  }
+  return products.find(p => p.id === parseInt(id)) || null;
 }
 
 export default async function ProductDetails({
