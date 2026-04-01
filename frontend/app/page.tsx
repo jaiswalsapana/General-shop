@@ -4,7 +4,7 @@ import { ArrowRight, Leaf, ShieldCheck, Truck } from 'lucide-react';
 
 async function getProducts() {
   try {
-    const res = await fetch('http://localhost:5002/api/products', { cache: 'no-store' });
+    const res = await fetch('http://127.0.0.1:5002/api/products', { cache: 'no-store' });
     if (!res.ok) return [];
     return res.json();
   } catch (error) {
@@ -14,7 +14,7 @@ async function getProducts() {
 
 async function getCategories() {
   try {
-    const res = await fetch('http://localhost:5002/api/categories', { cache: 'no-store' });
+    const res = await fetch('http://127.0.0.1:5002/api/categories', { cache: 'no-store' });
     if (!res.ok) return [];
     return res.json();
   } catch (error) {

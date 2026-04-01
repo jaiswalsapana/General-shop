@@ -4,7 +4,7 @@ import AddToCartButton from '../../components/AddToCartButton';
 
 async function getProduct(id: string) {
   try {
-    const res = await fetch(`http://localhost:5002/api/products/${id}`, { cache: 'no-store' });
+    const res = await fetch(`http://127.0.0.1:5002/api/products/${id}`, { cache: 'no-store' });
     if (!res.ok) return null;
     return res.json();
   } catch (error) {
